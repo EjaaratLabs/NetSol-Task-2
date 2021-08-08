@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "c4061e09-96e0-4800-98c9-4daf789e2e76",
+		"name": "NetSol Task 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Students",
+			"item": [
+				{
+					"name": "Add Student",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Beared eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTYyODQ2MTI3NX0.ANsoCZUXvAlKd4wkoxE4bn9UH68zYTU0Aal5aBX8YcU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Ashar Ali\",\r\n    \"phone\":\"03122428254\",\r\n    \"email\":\"ashar.cs@gmail.com\",\r\n    \"gurdianPhone\":\"03122428254\",\r\n    \"dateOfBirth\":\"1996-05-13\",\r\n    \"cnic\":\"4220100000005\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/una/student",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"una",
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Students",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Beared eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTYyNzk0MDY5NX0.XyUl2Atq68Vxh9HmTiJFPFYBh-WLOZUO14wi75uiYro"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/una/students",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"una",
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Student  Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Beared eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTYyNzk0MDY5NX0.XyUl2Atq68Vxh9HmTiJFPFYBh-WLOZUO14wi75uiYro"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/una/students/00022",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"una",
+								"students",
+								"00022"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Student",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Beared eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTYyNzk0MDY5NX0.XyUl2Atq68Vxh9HmTiJFPFYBh-WLOZUO14wi75uiYro"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/una/student/00022",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"una",
+								"student",
+								"00022"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Student",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Beared eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTYyNzk0MDY5NX0.XyUl2Atq68Vxh9HmTiJFPFYBh-WLOZUO14wi75uiYro"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Test\",\r\n    \"status\":\"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/una/student/00022",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"una",
+								"student",
+								"00022"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Token Client (Login)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"f8996da763b7a969b1\": \"admin\",\r\n    \"d74ff0ee8da3b9806b\": \"Alkhidmat12345\"\r\n}"
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/api/client/login",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"api",
+								"client",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token Resource (Login)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"f8996da763b7a969b1\": \"admin\",\r\n    \"d74ff0ee8da3b9806b\": \"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sgkcattles.com/api/user/login",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sgkcattles",
+								"com"
+							],
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

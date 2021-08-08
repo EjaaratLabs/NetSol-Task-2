@@ -1,0 +1,35 @@
+15:50:12.926 | Info | '/rest/91/71u8awaeb2pm2m45/crm.lead.add.json' | 
+15:50:13.588 | Info | '"message"' | 
+15:50:13.591 | Info | '{"API_USER_ID":"alkhidmatweb","PARAMS":{"FIELDS":{"TITLE":"New lead","NAME":"John","EMAIL":[{"VALUE":"mail@example.com","VALUE_TYPE":"WORK"}],"PHONE":[{"VALUE":" 923122428254","VALUE_TYPE":"WORK"}],"UF_CRM_1605363046":"426","UF_CRM_1606121338":"87","UF_CRM_1606121569":"91","UF_CRM_1614769815948":"2","UF_CRM_1614834920":"Hello","OPPORTUNITY":"2000","ADDRESS":"Hey","UF_CRM_1614841133":"Regular"}},"PUNCH_DATE":"12/4/2021","DONATION_REF_NUM":"4D0421288","CENTER_ID":"4","SOURCE":"5","NAME":"John","EMAIL":"mail@example.com","PHONE":" 923122428254","AMOUNT":"2000","METHOD_ID":"91","TYPE_ID":"87","PURPOSE_ID":"426","QUANTITY":"2","PKG":"Hello","FREQUENCY":"Regular","ADDRESS":"Hey"}' | 
+15:50:31.363 | Info | '/rest/91/71u8awaeb2pm2m45/crm.lead.add.json' | 
+15:55:57.970 | Info | '/transaction/donationinitiate' | 
+15:57:07.278 | Info | '/transaction/donationinitiate' | 
+16:02:53.129 | Info | '/transaction/donationinitiate' | 
+16:16:57.748 | Info | '/transaction/donationinitiate' | 
+16:19:55.005 | Info | '/transaction/donationinitiate' | 
+16:34:15.025 | Info | '/transaction/donationinitiate' | 
+16:34:15.611 | Info | ({'message':'Unknown column \'NaN\' in \'field list\'','code':'ER_BAD_FIELD_ERROR','errno':1054,'sqlState':'42S22','sqlMessage':'Unknown column \'NaN\' in \'field list\''}) | 
+16:39:46.997 | Info | '/transaction/donationinitiate' | 
+16:39:47.579 | Info | ({}) | 
+16:40:22.152 | Info | '/transaction/donationinitiate' | 
+16:40:22.285 | Info | ({}) | 
+16:41:13.095 | Info | '/transaction/donationinitiate' | 
+16:41:13.666 | Info | ({}) | 
+16:42:09.348 | Info | '/transaction/donationinitiate' | 
+16:42:09.509 | Info | ({}) | 
+16:42:50.629 | Info | '/transaction/donationinitiate' | 
+16:43:26.708 | Info | '/transaction/donationinitiate' | 
+16:44:13.652 | Info | '/transaction/donationinitiate' | 
+16:45:58.882 | Info | '/transaction/donationinitiate' | 
+16:47:41.545 | Info | '/transaction/donationinitiate' | 
+16:48:40.702 | Info | '/transaction/donationinitiate' | 
+16:49:19.414 | Info | '/transaction/donationinitiate' | 
+16:49:56.450 | Info | '/transaction/donationinitiate' | 
+16:50:33.949 | Info | '/transaction/donationinitiate' | 
+16:53:42.243 | Info | '/transaction/donationinitiate' | 
+16:56:46.994 | Info | '/transaction/donationinitiate' | 
+16:58:02.296 | Info | '/transaction/donationinitiate' | 
+16:58:51.901 | Info | '/transaction/donationinitiate' | 
+16:59:46.055 | Info | '/transaction/donationinitiate' | 
+17:02:16.109 | Info | '/transaction/donationinitiate' | 
+17:02:48.758 | Info | '/transaction/donationinitiate' | 
